@@ -926,7 +926,9 @@ section {
     .home-content h1 {
         font-size: 5rem;
     }
-
+    .profession-container {
+        display: none;
+    }
 }
 
 @media (max-width: 750px) {
