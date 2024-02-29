@@ -374,8 +374,6 @@ section {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .about {
     position: relative;
     padding: 80px 7%;
@@ -951,6 +949,21 @@ section {
     .contact form {
         margin: auto;
     }
+
+    .home .home-image {
+        bottom: 0;
+        right: 2rem;
+        top: auto;
+        transform: none;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 380px) {
+    .home {
+        margin-top: 7rem;
+    }
+
 }
 
 @media (max-height: 870px) {
